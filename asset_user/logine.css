@@ -1,0 +1,33 @@
+@media (max-width: 1025px) {
+	.bg-login{
+		background-color: black;
+	}
+	.panel-login{
+		background: rgb(255,255,255);
+		height: 300px;
+		margin-top: 10%;
+		border-radius: 30px;
+	}
+}
+@media (min-width: 1025px) {
+    .bg-login {
+	    background-image: url('../../assets/img/hall.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+   }
+   .panel-login{
+		background: linear-gradient(126deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 85%);
+		height: 300px;
+		margin-top: 35%;
+		border-radius: 30px;
+	}
+}
+.height-login{
+	height: 50px;
+	border-radius: 20px;
+}
+.bg-btn-login{
+	background: rgb(32,190,205);
+	background: linear-gradient(126deg, rgba(32,190,205,1) 0%, rgba(236,26,206,1) 85%);
+	border-color: white;
+}
